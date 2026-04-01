@@ -85,6 +85,11 @@ Discovery is MANDATORY unless you can prove current context exists.
 - Low-risk decision (easily changed later)
 - Action: Quick web search, no RESEARCH.md needed
 
+**Level 1.5 — Discovery** (5-15 min)
+- Quick library/option comparison (A vs B)
+- Low-to-medium risk, focused question
+- Action: Create DISCOVERY.md using `.gsd/templates/discovery.md` template
+
 **Level 2 — Standard Research** (15-30 min)
 - Choosing between 2-3 options
 - New external integration (API, service)
@@ -221,6 +226,7 @@ Display banner:
 ### 6a. Gather Context
 Load:
 - `.gsd/SPEC.md` — Requirements
+- `.gsd/REQUIREMENTS.md` — Formal requirements tracking (if exists)
 - `.gsd/ROADMAP.md` — Phase description
 - `$PHASE_DIR/RESEARCH.md` — If exists
 - `.gsd/ARCHITECTURE.md` — If exists
